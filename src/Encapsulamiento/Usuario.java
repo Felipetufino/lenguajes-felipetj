@@ -17,4 +17,8 @@ public String getNombre(){
 public int getedad(){
     return edad;
 }
+
+    void getEdad() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
