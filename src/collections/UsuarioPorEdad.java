@@ -11,11 +11,11 @@ import java.util.Comparator;
  *
  * @author T-107
  */
-public class UsuarioPorNombre implements Comparator<Usuario>{
+public class UsuarioPorEdad implements Comparator<Usuario>{
 
     @Override
     public int compare(Usuario o1, Usuario o2) {
-      return(o1.getNombre().compareTo(o2.getNombre()));
+        return (o1.getEdad().compareTo(o2.getEdad()));
     }
     
 }
